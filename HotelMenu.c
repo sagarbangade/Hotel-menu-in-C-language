@@ -10,7 +10,7 @@ void nasta()
     {
 
         if (a1==!0)
-            printf("\n AnyThing you want... ");
+            printf("\n Any Thing you want... ");
 
 
     printf("\n\n:::::::::: menu ::::::::::\n");
@@ -53,7 +53,7 @@ void nasta()
     case 0:
         (i1=0);
         printf("\n\n::::::::::Your Bill:::::::::: \n\n");
-        printf("Total Order  %d\ndosa\t     %d\t\t ₹ %d\nsamosa\t     %d\t\t ₹ %d\ntea\t     %d\t\t ₹ %d",ds+sm+t,ds,ds*20,sm,sm*30,t,t*10);
+        printf("Total Order  %d\nDosa\t     %d\t\t ₹ %d\nSamosa\t     %d\t\t ₹ %d\nTea\t     %d\t\t ₹ %d",ds+sm+t,ds,ds*20,sm,sm*30,t,t*10);
         printf("\nTotal Bill     \t\t₹ %d",d1);
 
         printf("\nEnter cash received ₹");
@@ -114,8 +114,7 @@ void nasta()
 int main()
 {
 
-
-
+    //
     nasta();
 
 getch();
